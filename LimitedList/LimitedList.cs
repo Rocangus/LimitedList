@@ -5,7 +5,7 @@ using System.Text;
 
 namespace LimitedList 
 {
-    class LimitedList<T> : IEnumerable<T>
+    public class LimitedList<T> : IEnumerable<T>
     {
         private readonly int capacity;
         private readonly List<T> list;
